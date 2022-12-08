@@ -72,4 +72,171 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: inherit;
 }
 
-/*--------------------*//*# sourceMappingURL=style.css.map */
+/*--------------------*/
+body {
+  background-image: url(/images/backgroud.png);
+  background-repeat: no-repeat;
+  padding: 120px 0 120px 0;
+  max-width: 930px;
+  margin: 0 auto;
+}
+
+.content {
+  background-image: url(/images/fon.png);
+  background-repeat: no-repeat;
+}
+
+.content-top__title {
+  position: relative;
+  font-family: Lato;
+  font-size: 40px;
+  top: 40px;
+  left: 65px;
+}
+
+.content-top__subtitle {
+  position: relative;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 27px;
+  top: 60px;
+  left: 67px;
+}
+
+.content-top__about {
+  position: relative;
+  font-family: "Source Sans Pro", sans-serif;
+  max-width: 370px;
+  color: black;
+  top: 80px;
+  left: 67px;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.content-top__images {
+  position: absolute;
+}
+
+.content-top__background {
+  position: absolute;
+  bottom: -130px;
+  left: 500px;
+}
+
+.content-top__photo {
+  position: absolute;
+  bottom: -112px;
+  left: 495px;
+  overflow: hidden;
+  border-radius: 15px;
+  border: 2px solid black;
+}
+
+.content-main {
+  padding: 200px 0 0 0;
+}
+
+.content-main__title {
+  position: relative;
+  left: 100px;
+  font-size: 30px;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.content-main__card1 {
+  position: relative;
+  left: 100px;
+}
+
+.content-main__title1 {
+  position: relative;
+}
+
+.content-main__subtitle1 {
+  position: relative;
+}
+
+.content-main__title2 {
+  padding: 100px 0 0 0;
+}
+
+.content-main__card2 {
+  position: relative;
+}
+
+.content-main__subtitle2 {
+  position: relative;
+}
+
+.content-main__title3 {
+  position: relative;
+}
+
+.content-main__card3 {
+  position: relative;
+}
+
+.content-main__subtitle3 {
+  position: relative;
+}
+
+.content-main__title4 {
+  position: relative;
+}
+
+.content-main__card4 {
+  position: relative;
+}
+
+.content-main__subtitle4 {
+  position: relative;
+}
+
+.content-main__title5 {
+  position: relative;
+}
+
+.content-main__card5 {
+  position: relative;
+}
+
+.content-main__subtitle5 {
+  position: relative;
+}
+
+.content-bottom {
+  display: flex;
+  position: relative;
+  padding: 650px 0 100px 0;
+}
+
+.content-bottom__logo__git {
+  position: relative;
+  left: 90px;
+  top: 8px;
+}
+
+.content-bottom__url {
+  position: relative;
+  top: 15px;
+  left: 100px;
+}
+
+.content-bottom__url a {
+  color: black;
+}
+
+.content-bottom__year {
+  position: relative;
+  top: 15px;
+  left: 350px;
+  font-family: Lato;
+  font-size: 15px;
+}
+
+.content-bottom__logo__rs {
+  position: relative;
+  left: 620px;
+  bottom: 20px;
+}/*# sourceMappingURL=style.css.map */
