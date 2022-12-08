@@ -1,6 +1,5 @@
 @charset "UTF-8";
 /*Обнуление*/
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@900&family=Source+Sans+Pro&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -72,4 +71,4 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: inherit;
 }
 
-/*--------------------*//*# sourceMappingURL=style.css.map */
+/*--------------------*//*# sourceMappingURL=nullstyle.css.map */
