@@ -1,0 +1,445 @@
+@charset "UTF-8";
+/*Обнуление*/
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@900&family=Source+Sans+Pro&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/*--------------------*/
+body {
+  background-image: url(/images/backgroud.png);
+  background-repeat: no-repeat;
+  padding: 120px 0 120px 0;
+  max-width: 930px;
+  margin: 0 auto;
+}
+
+.content {
+  background-image: url(/images/fon.png);
+  background-repeat: no-repeat;
+}
+
+.content-top__title {
+  position: relative;
+  font-family: Lato;
+  font-size: 40px;
+  top: 40px;
+  left: 65px;
+}
+
+.content-top__subtitle {
+  position: relative;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 27px;
+  top: 60px;
+  left: 67px;
+}
+
+.content-top__about {
+  position: relative;
+  font-family: "Source Sans Pro", sans-serif;
+  max-width: 370px;
+  color: black;
+  top: 80px;
+  left: 67px;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.content-top__images {
+  position: absolute;
+}
+
+.content-top__background {
+  position: absolute;
+  bottom: -130px;
+  left: 500px;
+}
+
+.content-top__photo {
+  position: absolute;
+  bottom: -112px;
+  left: 495px;
+  overflow: hidden;
+  border-radius: 15px;
+  border: 2px solid black;
+}
+
+.content-main {
+  padding: 200px 0 0 0;
+}
+
+.content-main__title1 {
+  position: relative;
+  font-family: "Source Sans Pro";
+  font-size: 20px;
+  font-weight: 700;
+  left: 160px;
+}
+
+.content-main__card1 {
+  background-color: white;
+  margin: 20px 0 0 130px;
+  padding: 20px 20px 20px 20px;
+  vertical-align: middle;
+  width: 600px;
+  height: 150px;
+  border: 2px solid gray;
+  border-radius: 10px;
+}
+
+.content-main__subtitle1 {
+  position: relative;
+  font-family: Lato;
+  font-size: 20px;
+  padding: 0 0 10px 0;
+}
+
+.content-main__about1 {
+  position: relative;
+  font-family: "Source Sans Pro";
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.content-main__title2 {
+  position: relative;
+  font-family: "Source Sans Pro";
+  font-size: 20px;
+  font-weight: 700;
+  left: 160px;
+  padding: 20px 0 0 0;
+}
+
+.content-main__card2 {
+  background-color: white;
+  margin: 20px 0 0 130px;
+  padding: 20px 20px 20px 20px;
+  vertical-align: middle;
+  width: 250px;
+  height: 170px;
+  border: 2px solid gray;
+  border-radius: 10px;
+}
+
+.content-main__subtitle2 {
+  position: relative;
+  font-family: Lato;
+  font-size: 20px;
+  padding: 0 0 10px 0;
+}
+
+.content-main__about2 {
+  position: relative;
+  font-family: "Source Sans Pro";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.content-main__about2 li:nth-child(1) {
+  background: url(./logo/git2.png) left no-repeat;
+  padding-left: 20px;
+}
+
+.content-main__about2 li:nth-child(2) {
+  background: url(./logo/css.png) left no-repeat;
+  padding-left: 20px;
+}
+
+.content-main__about2 li:nth-child(3) {
+  background: url(./logo/vs\ code.png) left no-repeat;
+  padding-left: 20px;
+}
+
+.content-main__about2 li:nth-child(4) {
+  background: url(./logo/figma.svg) left no-repeat;
+  padding-left: 20px;
+}
+
+.content-main__title3 {
+  position: relative;
+  font-family: "Source Sans Pro";
+  font-size: 20px;
+  font-weight: 700;
+  left: 510px;
+  bottom: 227px;
+  max-width: 300px;
+  padding: 20px 0 0 0;
+}
+
+.content-main__card3 {
+  position: relative;
+  left: 330px;
+  bottom: 230px;
+  background-color: white;
+  margin: 20px 0 0 130px;
+  padding: 20px 20px 20px 20px;
+  vertical-align: middle;
+  width: 270px;
+  height: 180px;
+  border: 2px solid gray;
+  border-radius: 10px;
+}
+
+.content-main__subtitle3 {
+  position: relative;
+  font-family: Lato;
+  font-size: 20px;
+  padding: 0 0 10px 0;
+}
+
+.content-main__about3 {
+  position: relative;
+  font-family: "Source Sans Pro";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.content-main__about3 li:nth-child(1) {
+  background: url(./logo/tg.png) left no-repeat;
+  padding-left: 20px;
+}
+
+.content-main__about3 li:nth-child(2) {
+  background: url(./logo/git3.png) left no-repeat;
+  padding-left: 20px;
+}
+
+.content-main__about3 li:nth-child(3) {
+  background: url(./logo/inst.png) left no-repeat;
+  padding-left: 20px;
+}
+
+.content-main__about3 li:nth-child(4) {
+  background: url(./logo/local.png) left no-repeat;
+  padding-left: 15px;
+  margin: 0 0 0 5px;
+}
+
+.content-main__about3 li:nth-child(5) {
+  background: url(./logo/email.png) left no-repeat;
+  padding-left: 20px;
+}
+
+.content-main__title4 {
+  position: relative;
+  font-family: "Source Sans Pro";
+  font-size: 20px;
+  font-weight: 700;
+  left: 160px;
+  bottom: 240px;
+  padding: 20px 0 0 0;
+}
+
+.content-main__card4 {
+  position: relative;
+  top: 10px;
+  background-color: white;
+  margin: -230px 0 0 130px;
+  padding: 20px 20px 20px 20px;
+  vertical-align: middle;
+  width: 600px;
+  height: 250px;
+  border: 2px solid gray;
+  border-radius: 10px;
+}
+
+.content-main__subtitle4 {
+  position: relative;
+  font-family: Lato;
+  font-size: 20px;
+  padding: 0 0 10px 0;
+}
+
+.content-main__about4 {
+  position: relative;
+  font-family: "Source Sans Pro";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.content-main__title5 {
+  position: relative;
+  font-family: "Source Sans Pro";
+  font-size: 20px;
+  font-weight: 700;
+  left: 160px;
+  top: 10px;
+  padding: 20px 0 0 0;
+}
+
+.content-main__card5 {
+  position: relative;
+  top: 10px;
+  background-color: white;
+  margin: 20px 0 0 130px;
+  padding: 20px 20px 20px 20px;
+  vertical-align: middle;
+  width: 170px;
+  height: 110px;
+  border: 2px solid gray;
+  border-radius: 10px;
+}
+
+.content-main__subtitle5 {
+  position: relative;
+  font-family: Lato;
+  font-size: 20px;
+  padding: 0 0 10px 0;
+}
+
+.content-main__about5 {
+  position: relative;
+  font-family: "Source Sans Pro";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.content-main__title6 {
+  position: relative;
+  font-family: "Source Sans Pro";
+  font-size: 20px;
+  font-weight: 700;
+  left: 510px;
+  top: -160px;
+  padding: 20px 0 0 0;
+  width: 200px;
+}
+
+.content-main__card6 {
+  position: relative;
+  top: -160px;
+  left: 320px;
+  background-color: white;
+  margin: 20px 0 0 130px;
+  padding: 20px 20px 20px 20px;
+  vertical-align: middle;
+  width: 280px;
+  height: 130px;
+  border: 2px solid gray;
+  border-radius: 10px;
+}
+
+.content-main__subtitle6 {
+  position: relative;
+  font-family: Lato;
+  font-size: 20px;
+  padding: 0 0 10px 0;
+}
+
+.content-main__about6 {
+  position: relative;
+  font-family: "Source Sans Pro";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.content-bottom {
+  display: flex;
+  position: relative;
+  bottom: 20px;
+  padding: 0 0 130px 0;
+}
+
+.content-bottom__logo__git {
+  position: relative;
+  left: 90px;
+  top: 8px;
+}
+
+.content-bottom__url {
+  position: relative;
+  top: 15px;
+  left: 100px;
+}
+
+.content-bottom__url a {
+  color: black;
+}
+
+.content-bottom__year {
+  position: relative;
+  top: 15px;
+  left: 345px;
+  font-family: Lato;
+  font-size: 15px;
+}
+
+.content-bottom__logo__rs {
+  position: relative;
+  left: 620px;
+  bottom: 20px;
+}/*# sourceMappingURL=style.css.map */
