@@ -150,18 +150,19 @@ body{
 }
 
 .content-main__title3 {
-	position: absolute;
+	position: relative;
 	font-family: 'Source Sans Pro';
 	font-size: 20px;
 	font-weight: 700;
-	right: 820px;
-	bottom: 312px;
+	left: 510px;
+	bottom: 227px;
+	max-width: 300px;
 	padding: 20px 0 0 0;
 }
 .content-main__card3 {
-	position: absolute;
-	right: 685px;
-	bottom: 115px;
+	position: relative;
+	left: 345px;
+	bottom: 230px;
 	background-color: white;
 	margin: 20px 0 0 130px;
 	padding: 20px 20px 20px 20px;
@@ -212,14 +213,14 @@ body{
 	font-size: 20px;
 	font-weight: 700;
 	left: 160px;
-	top: 10px;
+	bottom: 230px;
 	padding: 20px 0 0 0;
 }
 .content-main__card4 {
 	position: relative;
 	top: 10px;
 	background-color: white;
-	margin: 20px 0 0 130px;
+	margin: -230px 0 0 130px;
 	padding: 20px 20px 20px 20px;
 	vertical-align: middle;
 	width: 600px;
