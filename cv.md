@@ -28,3 +28,8 @@ I want to become a Frontend Developer
 </body>
 </html>
 ```
+## Education:
+- Belarusian State University of Transport (BelSut - Belarus, Gomel) - Engineer
+## Languages:
+- English - A2.
+- Russian - Native.
